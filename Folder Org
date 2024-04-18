@@ -1,0 +1,26 @@
+selenium_framework/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── pages/
+│   │           ├── BasePage.java
+│   │           ├── HomePage.java
+│   │           ├── LoginPage.java
+│   │           ├── PhonesPage.java
+│   │           ├── CartPage.java
+│   │           └── ConfirmationPage.java
+│   │
+│   └── test/
+│       └── java/
+│           └── tests/
+│               ├── TestSignUp.java
+│               ├── TestAddToCart.java
+│               ├── TestPlaceOrder.java
+│               └── TestValidateCategories.java
+│
+├── drivers/           (store WebDriver executables)
+│
+├── pom.xml            (Maven dependencies)
+│
+└── README.md          (Documentation)
